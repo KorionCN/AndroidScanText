@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#009688</color>
+    <color name="colorLaunchPageText">#009688</color>
+    <color name="colorDarkText">#000000</color>
+    <color name="dialogbgColor">#55000000</color>
+    <color name="textLight">#F5F7F0</color>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.MainActivity"
+    android:orientation="vertical"
+    android:padding="8dp"
+    >
+
+   <android.support.v4.widget.NestedScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           >
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:layout_margin="8dp"
+               android:text="@string/main_tip"
+               android:textSize="18dp"
+               android:textColor="@color/colorDarkText"
+               android:gravity="center"
+               />
+           <android.support.v7.widget.CardView
+               android:id="@+id/cdv_camera"
+               app:cardCornerRadius="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="70dp"
+               android:layout_margin="8dp"
+               android:clickable="true"
+               android:foreground="?android:attr/selectableItemBackground"
+               android:focusable="true"
+               >
+                <TextView
+                    android:text="@string/form_camera"
+                    android:drawableStart="@drawable/ic_carma"
+                    android:drawablePadding="20dp"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorDarkText"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:paddingStart="20dp"
+                    android:layout_height="wrap_content" />
+           </android.support.v7.widget.CardView>
+
+           <android.support.v7.widget.CardView
+               android:id="@+id/cdv_fileMgr"
+               app:cardCornerRadius="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="70dp"
+               android:layout_margin="8dp"
+               android:clickable="true"
+               android:foreground="?android:attr/selectableItemBackground"
+               android:focusable="true">
+               <TextView
+                   android:text="@string/form_file_mgr"
+                   android:textColor="@color/colorDarkText"
+                   android:layout_gravity="center"
+                   android:drawableStart="@drawable/ic_file_mgr"
+                   android:textSize="20dp"
+                   android:gravity="center_vertical"
+                   android:drawablePadding="20dp"
+                   android:paddingStart="20dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content" />
+           </android.support.v7.widget.CardView>
+
+
+       </LinearLayout>
+
+   </android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>

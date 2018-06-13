@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">文本扫描</string>
+    <string name="app_version">version 1.0</string>
+    <string name="app_author">网络1502班 陈胤颖</string>
+    <string name="app_number">201558080234</string>
+    <string name="scan_result">扫描结果</string>
+    <string name="main_tip">选择图片来源</string>
+    <string name="form_camera">相机</string>
+    <string name="form_file_mgr">文件管理器</string>
+    <string name="create_file_fail">图片创建失败</string>
+    <string name="again_to_exit">再按一次退出~</string>
+    <string name="no_camera">貌似你没有安装拍照软件</string>
+    <string name="no_target_type">不是目标类型</string>
+    <string name="init_ocr_fail">初始化OCR失败</string>
+    <string name="no_init_ocr">程序初始化失败(不支持模拟器)</string>
+</resources>
